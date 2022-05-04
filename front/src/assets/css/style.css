@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+  text-align: center;
+  padding: 30px;
+}
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: underline;
+}
+#nav p {
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  user-select: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background: #42b983;
+  box-shadow: 0px 0px 4px black;
+  height: 2.5rem;
+  width: 13rem;
+  transition: 0.1s ease-in-out;
+}
+
+input {
+  border-radius: 6px;
+  border: 3px solid #42b983;
+  box-shadow: 0px 0px 4px black;
+}
+button {
+  cursor: pointer;
+}
